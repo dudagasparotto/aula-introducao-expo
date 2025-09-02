@@ -1,6 +1,6 @@
 import {View, Text} from 'react-native';
 
-import styles from  './styles.js'
+import styles from  '../styles.js'
 
 export default function Exemplo01(){
     return(
