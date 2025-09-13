@@ -2,17 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 //import Exemplo01 from './src/exemplos/ex01';
-//import Atividade1 from './src/atividade1';
+//import Atividade1 from './src/atividades/atividade1';
 
-
-import Exemplo03 from './src/exemplos/ex03';
-
-
+//import Exemplo03 from './src/exemplos/ex03';
+import Atividade3 from './src/atividades/atividade3';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo03 />
+      <Atividade3 />
       <StatusBar style="light" />
     </View>
   );
