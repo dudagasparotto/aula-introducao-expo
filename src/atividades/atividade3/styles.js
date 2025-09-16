@@ -35,6 +35,16 @@ const styles = StyleSheet.create(
            // flexDirection: 'row',
             alignItems: 'center',
         },
+         botaoMenor:{
+            backgroundColor: 'deeppink',
+            width: '25%',
+            height: '7%',
+            //height: RFPercentage(6),
+            padding:RFPercentage(1) ,
+            borderRadius:RFPercentage (10),
+           // flexDirection: 'row',
+            alignItems: 'center',
+        },
        txtBotao:{
             color: '#fff',
             fontSize: RFPercentage(10),

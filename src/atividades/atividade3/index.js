@@ -19,27 +19,31 @@ export default function Atividade3(){
         setNumero(numero -1);
         console.log(numero);
     }
+
+    function handleZerar(){
+        setNumero(0);
+        console.log('Zerado!');
+    }
   
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>atividade3</Text>
 
             <Text style={styles.txt}>{numero}</Text>
-
-            <TouchableOpacity 
-                style={styles.botao}
-                onPress={() => handleincrementar ()}
-            > 
-
-                <Text styles = {styles.txtBotao}> + </Text>
+            
+            <TouchableOpacity style={[styles.botao , styles.botaoMenor]}
+                onPress={() => handleincrementar ()}> 
+            <Text styles = {styles.txtBotao}> + </Text>
             </TouchableOpacity>
 
-             <TouchableOpacity 
-                style={styles.botao}
-                onPress={() => handleincrementar2 ()}
-            > 
-
+             <TouchableOpacity style={[styles.botao , styles.botaoMenor]}
+                onPress={() => handleincrementar2 ()} >
                 <Text styles = {styles.txtBotao}> - </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={[styles.botao , styles.botaoMenor]}
+                onPress={handleZerar}>
+                <Text styles={styles.txtBotao}>Zerar</Text>
             </TouchableOpacity>
 
         </View>
