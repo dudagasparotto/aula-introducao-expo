@@ -1,7 +1,6 @@
 import { StyleSheet } from "react-native";
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
-
 const styles = StyleSheet.create(
     {
         container:{
@@ -16,7 +15,7 @@ const styles = StyleSheet.create(
             margin: 10,
             marginBottom: RFPercentage(5),
             marginTop: RFPercentage(5),
-
+            
           
         },
         txt:{

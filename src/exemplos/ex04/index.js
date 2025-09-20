@@ -7,12 +7,18 @@ import styles from  './styles.js'
 export default function Exemplo04(){
     const [texto, setTexto] = useState('');
     const [txt2, setTxt2] = useState('valor');
+    const [mensagem, setMensagem] = useState('');
+
+    function handleExibirMensagem(){
+        setMensagem(texto);
+        setTxt2(''); //limpa o campo
+    }
 
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 4</Text>
 
-            <Text style={styles.txt}> {texto} </Text>
+            <Text style={styles.txt}> {titulo} </Text>
 
             <TextInput 
                 onChangeText={setTexto}
@@ -24,9 +30,9 @@ export default function Exemplo04(){
 
             />
 
-            <Text style ={styles.txt}> {txt2} inicial</Text>
+            <Text style ={styles.txt}> {mensagem} inicial</Text>
             <TextInput 
-                //onChangeText={setTexto}
+                onChangeText={setTexto}
                 placeholder='digite sua mensagem' 
                 //keyboardType='visible-passaword'
                 //maxLength={10} //limita a qtde de caracteres
@@ -37,7 +43,7 @@ export default function Exemplo04(){
 
             <TouchableOpacity
                 style={styles.botao}
-                onPress={() => {}}
+                onPress={() => handleExibirMensagem ()}
             >
                 <Text style={styles.txtBotao}>Atualizar</Text>
             </TouchableOpacity>
