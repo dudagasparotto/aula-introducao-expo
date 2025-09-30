@@ -9,7 +9,7 @@ const styles = StyleSheet.create(
             alignItems: 'center',
         },
         titulo:{
-            fintSize: RFPercentage(5),
+            fontSize: RFPercentage(5),
             color:'#777',
             fontWeight: 'bold',
             margin: 10,
