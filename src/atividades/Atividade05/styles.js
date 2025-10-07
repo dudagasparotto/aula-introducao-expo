@@ -79,18 +79,24 @@ txtEntrada: {
 button: {
     backgroundColor: '#E91E63',
     height: 40,
-    borderRadius: 10,
+    justifyContent: 'center',
+    borderRadius: 20,
     marginTop: 20,
 },
 textButton: {
-    fontSize: 22,
+    fontSize: 30,
     color: '#FF80AB',
     textAlign: 'center',
+    height: 50,
+    borderRadius: 10,
+    fontWeight: 'bold',
+
 },
 textLabel: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#C51162',
+    fontSize: 20,
 },
 });
 

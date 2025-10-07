@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import styles from './styles';
 
-export default function Atividade55() {
+export default function Exemplo05() {
 
     const [n1, setN1] = useState(0);
     const [n2, setN2] = useState(0);
@@ -22,7 +22,7 @@ export default function Atividade55() {
     
 
 
-    <Text style={styles.paragraph}>Atividade 55</Text>
+    <Text style={styles.paragraph}>Exemplo 5</Text>
     <Text style={styles.txtSaida}>Calculadora básica</Text>
 
 
