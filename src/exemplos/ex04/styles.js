@@ -6,7 +6,7 @@ const styles = StyleSheet.create(
     {
         container:{
             flex: 1,
-            backgroundColor:'#c5b0c5ff',
+            backgroundColor:'#e9d9e9ff',
             alignItems: 'center',
         },
         titulo:{
