@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
-import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
+import { StyleSheet } from 'react-native';
+import { RFPercentage } from 'react-native-responsive-fontsize';
 
 
 const styles = StyleSheet.create(
@@ -28,10 +28,10 @@ const styles = StyleSheet.create(
             width: '80%',
             padding: RFPercentage(1),
             height: RFPercentage(6),
-            fontSize: RFPercentage(2),
-            textAlign: 'center',
+            //fontSize: RFPercentage(2),
+            //textAlign: 'center',
             borderRadius: RFPercentage(1.5),
-            backgroundColor: '#fff',
+            //backgroundColor: '#fff',
         },
         botao:{
             backgroundColor: 'deeppink',
