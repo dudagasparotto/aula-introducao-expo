@@ -1,17 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
+import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
+import constants from 'expo-constants';
 
-import Exemplo04 from './src/exemplos/ex04';
+import Exemplo06 from './src/exemplos/ex06';
 
 
-import Atividade05 from './src/atividades/atividade5';
-import Exemplo05 from './src/exemplos/exemplo05';
+//import Atividade05 from './src/atividades/atividade5';
+//import Exemplo05 from './src/exemplos/exemplo05';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Exemplo04 />
-      <StatusBar style="light" />
+    <View style={styles.container}> 
+    <Exemplo06 />
     </View>
   );
 }
